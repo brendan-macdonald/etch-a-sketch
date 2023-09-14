@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Etch-A-Sketch</h1>
+    <section class="head">
+        <section>
+            <input id="text" placeholder="Grid Size" value="16" onchange="changeSize(this.value)">
+            <button id="size-btn">Set Size</button>
+            <section id="message"></section>
+        </section>
+           
+        <section class="buttons">
+            <p>Select Color:</p>
+            <button onclick="selectColor('black')" id="black">Black</button>
+            <button onclick="selectColor('rainbow')" id="rainbow">Rainbow</button>
+            <button onclick="selectColor('white')" id="erase">Erase</button>
+            <button onclick="clearGrid()">Clear</button>
+        </section>
+    </section>
+
+    <div class="grid-container"></div>
+
+    <section class="footer">Created by: <a href="https://github.com/brendan-macdonald"> <img id="git-logo" src="github-logo.png" alt="github logo"/>Brendan MacDonald</a></section>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+*{
+    font-family: 'VT323', monospace;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    background: url(background.png);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 3px 3px white;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: .5px .5px white;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 18px;
+    gap: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    height: 50px;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+}
+
+#black:hover {
+    background: black;
+    color: white;
+}
+
+#rainbow:hover {
+    background: linear-gradient(to right, #f4063a, #e9520c, #d47900, #b99700, #99af00, #77bb3e, #50c569, #00cc91, #00c6c2, #00bbed, #00a9ff, #5f90fb);;
+}
+
+#erase:hover {
+    background-color: #f5a19d ;
+}
+
+.grid-container {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 10px ridge black;
+    box-shadow: 8px 8px 8px 8px black;
+    border-radius: 1px;
+}
+
+div {
+    border: 1px solid rgba(0, 0, 0, 0.05); 
+    transition: all .3s ease;
+}
+
+input {
+    box-shadow: 5px 5px;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0);
+    width: 70px;
+    position: relative;
+    border-radius: 3px;
+    padding: 9px 12px;
+    line-height: 1.4;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    height: 20px;
+    transition: all .2s ease;
+    /* :hover{
+        box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 2px;
+    }
+    :focus{
+        background: #fff;
+        outline: 0;
+        box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 3px;
+    } */
+}
+input:hover {
+    box-shadow: 0 0 0 0 #fff inset, black 0 0 0 2px;
+}
+
+input:focus {
+    background: black;
+    outline: 0;
+    box-shadow: 0 0 0 0 #fff inset, black 0 0 0 3px;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 12px;
+}
+
+button {
+    width: 80px;
+    font-size: 15px;
+    background-color: white;
+    box-shadow: 5px 5px;
+    outline: none;
+  }
+
+button:hover {
+    transform: scale(1.1);
+    border-color: white;
+}
+
+.footer{
+    font-size: 25px;
+    bottom: 0;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+#git-logo{
+    width: 50px;
+    height: 50px;
+    margin-bottom: -18px;
+    margin-right: 10px;
+}
+
+
