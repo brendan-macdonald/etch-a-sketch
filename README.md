@@ -2,13 +2,18 @@
 My version of a classic etch-a-sketch...
 
 Technologies
+
     HTML
-    CSS
+    CSS 
     JS
+    
 Tools
+
     Visual Studio Code
     Git and GitHub
+    
 Outcome
+
     Improved CSS Grid understanding
     Used CSS3 grid and flex to create layout
     Used Git and GitHub for project management
