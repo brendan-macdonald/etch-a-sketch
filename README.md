@@ -1,6 +1,8 @@
 # etch-a-sketch
 My version of a classic etch-a-sketch...
 
+🔗 Live preview of my web toy is here: https://brendan-macdonald.github.io/etch-a-sketch/
+
 Technologies
 
     HTML
